@@ -1,13 +1,17 @@
 # Edge-detection
 # OpenCV program Edge detection in real time 
 **laplacien** :
-•	Le laplacien est quelque peu différent des méthodes que nous avons discutées jusqu'à présent. 
-• Contrairement aux détecteurs de bord Sobel et Prewitt, le détecteur de bord laplacien n’utilise qu’un seul noyau. Il calcule les dérivées de second ordre en un seul passage. Deux petits noyaux couramment utilisés sont:
-• <img src="img/img1.jpg" alt="" />
-•	Comme ces masques se rapprochent d'une seconde mesure dérivée sur l'image, ils sont très sensibles au bruit. Pour corriger cela, l'image est souvent gaussienne lissée avant l'application du filtre laplacien.
-•	Nous pouvons également convoluer un masque gaussien avec le masque laplacien et l'appliquer à l'image en un seul passage. Je vais expliquer comment convertir un noyau en un autre dans un didacticiel distinct. Cependant, nous les appliquerons séparément dans l'exemple suivant. Pour faciliter les choses, nous utiliserons OpenCV.
+Le laplacien est quelque peu différent des méthodes que nous avons discutées jusqu'à présent. 
 
-•	Laplacian Operator est également un opérateur dérivé utilisé pour rechercher des contours dans une image.
+Contrairement aux détecteurs de bord Sobel et Prewitt, le détecteur de bord laplacien n’utilise qu’un seul noyau. Il calcule les dérivées de second ordre en un seul passage. Deux petits noyaux couramment utilisés sont:
+
+<img src="img/img1.jpg" alt="" />
+
+Comme ces masques se rapprochent d'une seconde mesure dérivée sur l'image, ils sont très sensibles au bruit. Pour corriger cela, l'image est souvent gaussienne lissée avant l'application du filtre laplacien.
+
+Nous pouvons également convoluer un masque gaussien avec le masque laplacien et l'appliquer à l'image en un seul passage. Je vais expliquer comment convertir un noyau en un autre dans un didacticiel distinct. Cependant, nous les appliquerons séparément dans l'exemple suivant. Pour faciliter les choses, nous utiliserons OpenCV.
+
+Laplacian Operator est également un opérateur dérivé utilisé pour rechercher des contours dans une image.
 •	 La principale différence entre Laplacian et d’autres opérateurs tels que Prewitt, Sobel, 
 •	Robinson et Kirsch est qu’ils sont tous des masques dérivés du premier ordre, 
 •	mais que Laplacian est un masque dérivé du second ordre. Dans ce masque, nous avons deux autres classifications, l’opérateur laplacien positif et l’opérateur laplacien négatif.
