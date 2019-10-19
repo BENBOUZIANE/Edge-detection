@@ -4,9 +4,9 @@
 The objective of the program given is to perform edge detection of images in real-time. 
 
 I use for this project the 3 detection techniques :
-Prewitt ;
-laplacien ;
-Canny ;
+- Prewitt ;
+- laplacien ;
+- Canny ;
 
 # The Laplacian filter
 
@@ -33,7 +33,10 @@ Non-maximum deletion;
 Double threshold;
 Edge tracking by hysteresis.
 
-# References 
+for more information on the canny filter it's a help link
 
+https://towardsdatascience.com/canny-edge-detection-step-by-step-in-python-computer-vision-b49c3a2d8123
+
+# References 
 https://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_imgproc/py_canny/py_canny.html
 https://opencv-python-tutroals.readthedocs.io/en/latest/index.html
