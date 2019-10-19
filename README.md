@@ -12,7 +12,7 @@ Canny ;
 # The Laplacian filter:
 
 The Laplacian operator is defined by:
-<img src="img/img1.jpg" alt="" />
+<img src="img/img2.jpg" alt="" />
 Laplacian is a derivative mask of the second order. In this mask, we have two other classifications, the positive Laplacian operator and the negative Laplacian operator.
 Inner edges
 Outside edges
