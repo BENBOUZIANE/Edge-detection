@@ -6,7 +6,7 @@ The objective of the program given is to perform edge detection of images in rea
 I use for this project the 3 detection techniques :
 - Prewitt ;
 - laplacien ;
-- Canny ;
+- Canny .
 
 # The Laplacian filter
 
