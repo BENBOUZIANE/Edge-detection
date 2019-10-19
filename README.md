@@ -21,8 +21,10 @@ Outside edges
 
 the filter is composed of two 3 × 3 matrices that we will convolute with the original image to calculate an approximation of its derivative at any point.
 The first matrix gives the horizontal derivative and the second gives the vertical derivative.
+
 <img src="img/prew.png" alt="" align="middle" style="text-align: center;"/>
-# The canny filter:
+
+# The canny filter
 
 The Canny edge detection algorithm consists of 5 steps:
 Noise reduction;
@@ -30,3 +32,8 @@ Gradient calculation;
 Non-maximum deletion;
 Double threshold;
 Edge tracking by hysteresis.
+
+# References 
+
+https://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_imgproc/py_canny/py_canny.html
+https://opencv-python-tutroals.readthedocs.io/en/latest/index.html
