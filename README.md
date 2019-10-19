@@ -11,7 +11,7 @@ Canny ;
 # The Laplacian filter
 
 The Laplacian operator is defined by:
-<img src="img/img2.jpg" alt="" /> .
+<img src="img/img2.jpg" alt="" style="text-align: center;"/> .
 
 Laplacian is a derivative mask of the second order. In this mask, we have two other classifications, the positive Laplacian operator and the negative Laplacian operator.
 Inner edges
@@ -21,7 +21,7 @@ Outside edges
 
 the filter is composed of two 3 × 3 matrices that we will convolute with the original image to calculate an approximation of its derivative at any point.
 The first matrix gives the horizontal derivative and the second gives the vertical derivative.
-<img src="img/prew.png" alt="" />
+<img src="img/prew.png" alt="" align="middle" style="text-align: center;"/>
 # The canny filter:
 
 The Canny edge detection algorithm consists of 5 steps:
