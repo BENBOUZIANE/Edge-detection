@@ -9,7 +9,7 @@ Prewitt ;
 laplacien ;
 Canny ;
 
-# The Laplacian filter:
+# The Laplacian filter
 
 The Laplacian operator is defined by:
 <img src="img/img2.jpg" alt="" />
@@ -17,11 +17,11 @@ Laplacian is a derivative mask of the second order. In this mask, we have two ot
 Inner edges
 Outside edges
 
-# The filter of Prewitt:
+# The Prewitt filter
 
 the filter is composed of two 3 × 3 matrices that we will convolute with the original image to calculate an approximation of its derivative at any point.
 The first matrix gives the horizontal derivative and the second gives the vertical derivative.
-
+<img src="img/img2.jpg" alt="" />
 # The canny filter:
 
 The Canny edge detection algorithm consists of 5 steps:
@@ -31,4 +31,4 @@ Non-maximum deletion;
 Double threshold;
 Edge tracking by hysteresis.
 
-the algorithm is based on grayscale images
+<img src="img/img2.jpg" alt="" />
