@@ -1,10 +1,6 @@
 # Edge-detection
 # OpenCV program Edge detection in real time 
 **laplacien** :
-Le laplacien est quelque peu différent des méthodes que nous avons discutées jusqu'à présent. 
-
-Contrairement aux détecteurs de bord Sobel et Prewitt, le détecteur de bord laplacien n’utilise qu’un seul noyau. Il calcule les dérivées de second ordre en un seul passage. Deux petits noyaux couramment utilisés sont:
-
 
 The objective of the program given is to perform edge detection of images in real-time. 
 
