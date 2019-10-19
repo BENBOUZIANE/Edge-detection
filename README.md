@@ -1,6 +1,6 @@
 # Edge-detection
 # OpenCV program Edge detection in real time 
-<img src="img/edge1.jpg" alt="" style="text-align: center;"/> .
+<img src="img/edge1.jpg" alt="" style="  width: 100%;height: 400px;"/> .
 The objective of the program given is to perform edge detection of images in real-time. 
 
 I use for this project the 3 detection techniques :
