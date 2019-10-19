@@ -21,7 +21,7 @@ Outside edges
 
 the filter is composed of two 3 × 3 matrices that we will convolute with the original image to calculate an approximation of its derivative at any point.
 The first matrix gives the horizontal derivative and the second gives the vertical derivative.
-<img src="img/img2.jpg" alt="" />
+<img src="img/prew.png" alt="" />
 # The canny filter:
 
 The Canny edge detection algorithm consists of 5 steps:
@@ -30,5 +30,3 @@ Gradient calculation;
 Non-maximum deletion;
 Double threshold;
 Edge tracking by hysteresis.
-
-<img src="img/img2.jpg" alt="" />
